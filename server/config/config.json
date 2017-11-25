@@ -1,23 +1,11 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "123qwe",
-    "database": "template-dev",
-    "host": "0.0.0.0",
-    "dialect": "postgres"
+    "use_env_variable": "CONNECTION_STRING_DEV"
   },
   "test": {
-    "username": "postgres",
-    "password": "123qwe",
-    "database": "template-dev",
-    "host": "0.0.0.0",
-    "dialect": "postgres"
+    "use_env_variable": "CONNECTION_STRING_TEST"
   },
   "production": {
-    "username": "postgres",
-    "password": "123qwe",
-    "database": "template-dev",
-    "host": "0.0.0.0",
-    "dialect": "postgres"
+    "use_env_variable": "CONNECTION_STRING_PROD"
   }
 }
